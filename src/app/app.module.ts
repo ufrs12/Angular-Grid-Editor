@@ -8,6 +8,7 @@ import { GridComponent } from './grid/grid/grid.component';
 import { SafeUrlPipe } from './grid/grid/pipes/safe-url.Pipe';
 import { SafeStylePipe } from './grid/grid/pipes/safe-style.Pipe';
 import { SafeHtmlPipe } from './grid/grid/pipes/safe-html.Pipe';
+import { MenubarComponent } from './components/menubar/menubar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { SafeHtmlPipe } from './grid/grid/pipes/safe-html.Pipe';
     SafeGridAreaPipe,
     SafeUrlPipe,
     SafeStylePipe,
-    SafeHtmlPipe
+    SafeHtmlPipe,
+    MenubarComponent
   ],
   imports: [
     BrowserModule

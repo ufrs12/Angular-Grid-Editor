@@ -1,0 +1,69 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08"
+        aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" routerLink="">osjob.ru</a>
+    <div class="navbar-collapse justify-content-md-center collapse" id="navbarsExample08" style="">
+        <ul class="navbar-nav">
+
+            <li>
+                <div ngbDropdown class="d-inline-block">
+                    <a routerLink="">
+                        <button type="button" class="btn btn-outline-dark">
+                            Главная
+                        </button>
+                    </a>
+                </div>
+            </li>
+
+            <li>
+                <div ngbDropdown class="d-inline-block">
+                    <button type="button" class="btn btn-outline-dark" id="dropdownBasic1" ngbDropdownToggle>
+                        Проекты
+                    </button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                        <button ngbDropdownItem routerLink="projects/d3epr">Data3editor</button>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div ngbDropdown class="d-inline-block">
+                    <button type="button" class="btn btn-outline-dark" id="dropdownBasic2" ngbDropdownToggle>
+                        Скачать
+                    </button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic2">
+                        <button ngbDropdownItem routerLink="downloads/d3e">Data3editor</button>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+            <li>
+                <div ngbDropdown class="d-inline-block">
+                    <button type="button" class="btn btn-outline-dark" id="dropdownBasic2" ngbDropdownToggle>
+                        Облачные сервисы
+                    </button>
+                    <div ngbDropdownMenu aria-labelledby="dropdownBasic2">
+                        <a href="services/d3e" class="href-but"  target="_blank">
+                            <button ngbDropdownItem>Data3editor</button>
+                        </a>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</nav>
