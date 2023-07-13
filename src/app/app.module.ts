@@ -9,6 +9,7 @@ import { SafeUrlPipe } from './grid/grid/pipes/safe-url.Pipe';
 import { SafeStylePipe } from './grid/grid/pipes/safe-style.Pipe';
 import { SafeHtmlPipe } from './grid/grid/pipes/safe-html.Pipe';
 import { MenubarComponent } from './components/menubar/menubar.component';
+import { ExportsvgComponent } from './components/pages/exportsvg/exportsvg.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MenubarComponent } from './components/menubar/menubar.component';
     SafeUrlPipe,
     SafeStylePipe,
     SafeHtmlPipe,
-    MenubarComponent
+    MenubarComponent,
+    ExportsvgComponent
   ],
   imports: [
     BrowserModule
