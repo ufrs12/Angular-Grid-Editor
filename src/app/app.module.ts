@@ -10,6 +10,9 @@ import { SafeStylePipe } from './grid/grid/pipes/safe-style.Pipe';
 import { SafeHtmlPipe } from './grid/grid/pipes/safe-html.Pipe';
 import { MenubarComponent } from './components/menubar/menubar.component';
 import { ExportsvgComponent } from './components/pages/exportsvg/exportsvg.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -21,10 +24,13 @@ import { ExportsvgComponent } from './components/pages/exportsvg/exportsvg.compo
     SafeStylePipe,
     SafeHtmlPipe,
     MenubarComponent,
-    ExportsvgComponent
+    ExportsvgComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatDialogModule,
+    MatFormFieldModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,9 @@
-<p>exportsvg works!</p>
+<h1 mat-dialog-title>{{dialogTitle}}</h1>
+<div mat-dialog-content>
+  <div id="someId" svg>
+
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="dialogRef.close()">Закрыть</button>
+</div>
